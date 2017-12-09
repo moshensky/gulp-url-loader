@@ -1,0 +1,27 @@
+{
+  "name": "gulp-url-loader",
+  "version": "0.0.1",
+  "description": "Inline image imports as base64 encoded data url strings",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moshensky/gulp-url-loader.git"
+  },
+  "keywords": [
+    "gulp",
+    "plugin",
+    "base64",
+    "data",
+    "url",
+    "encode"
+  ],
+  "author": "Nikita Moshensky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moshensky/gulp-url-loader/issues"
+  },
+  "homepage": "https://github.com/moshensky/gulp-url-loader#readme"
+}
