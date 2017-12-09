@@ -35,10 +35,17 @@
     "test:prod": "yarn test --coverage --no-cache",
     "format:configs": "prettier --write ./tsconfig.json ./.prettierrc.json ./config/tslint.json ./config/**/*.json ./config/**/*.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "gulp-util": "^3.0.8",
+    "mime": "^2.0.3",
+    "through2": "^2.0.3"
+  },
   "devDependencies": {
+    "@types/gulp-util": "^3.0.34",
     "@types/jest": "^21.1.8",
+    "@types/mime": "^2.0.0",
     "@types/node": "^8.0.53",
+    "@types/through2": "^2.0.33",
     "jest": "^21.2.1",
     "prettier": "^1.8.2",
     "rimraf": "^2.6.2",
