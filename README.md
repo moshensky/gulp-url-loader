@@ -35,7 +35,7 @@ import * as imageVariableName from '../some/relative/path/image.png'
 
 
 [npm-url]: https://www.npmjs.com/package/gulp-url-loader
-[npm-badge-url]: https://badge.fury.io/js/gulp-url-loader.svg 
+[npm-badge-url]: https://img.shields.io/npm/v/gulp-url-loader.svg 
 [prettier-url]: https://github.com/prettier/prettier
-[prettier-badge-url]: https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square
+[prettier-badge-url]: https://img.shields.io/badge/code_style-prettier-ff69b4.svg
 
