@@ -1,6 +1,6 @@
 {
   "name": "gulp-url-loader",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Inline image imports as base64 encoded data url strings",
   "repository": {
     "type": "git",
