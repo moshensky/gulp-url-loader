@@ -7,7 +7,7 @@ import { readFileSync } from 'fs'
 
 const mkError = (msg: string) => new PluginError('gulp-url-loader', msg)
 
-export const re = /import\s\*\sas\s(\w+)\sfrom\s('|")(.+png|gif|jpeg)\2/g
+export const re = /import(?:\s+|\s+\*\s+as\s+)(\w+)\s+from\s+('|")(.+(?:png|gif|jpe?g))\2/g
 
 const inline = (content: string, fileFolderPath: string) =>
   content.replace(re, (_: string, variableName: string, __: string, imgRelativePath: string) => {
